@@ -1,0 +1,36 @@
+# Physical servers
+# The physical machines are named after metals. There are four main servers
+# at the moment:
+#
+# - gold
+#   CPUs    : 16/32 (2x Xeon E5-2690)
+#   RAM     : 384 GB
+#   Disk(1) : 480 GB SSD x10
+[gold]
+gold.amundsen.pro
+
+# - silver
+#   CPUs    : 8/16 (2x Xeon X5570)
+#   RAM     : 64 GB
+#   Disk(1) : 250 GB SSD
+#   Disk(2) : 1 TB SSD
+#   Disk(3) : 2 TB HDD
+[silver]
+silver.amundsen.pro
+
+# - bronze
+#   CPUs    : 6/12 (Core i7-980X)
+#   RAM     : 24 GB
+#   Disk(1) : 120 GB SSD
+#   Disk(2) : 250 GB SSD
+#   Disk(3) : 2 TB HDD x3
+[bronze]
+bronze.amundsen.pro
+
+# - copper
+#   CPUs    : 2/2 (Celeron 1037U)
+#   RAM     : 16 GB
+#   Disk(1) : 120 GB SSD
+[copper]
+copper.amundsen.pro
+

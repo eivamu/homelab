@@ -1,0 +1,10 @@
+---
+- hosts: gold
+  become: true
+  gather_facts: no
+  remote_user: "{{ user }}"
+  become_user: root
+  vars_files:
+    - ./vault.yml
+  roles:
+    - role: 
