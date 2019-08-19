@@ -1,0 +1,9 @@
+# Virtual servers
+# The virtual machines have descriptional names after their function(s).
+#
+# - pihole: DNS adblocker, DNS server
+#   vCPUs   : 2
+#   RAM     : 4 GB
+#   Disk(1) : 20 GB
+[pihole]
+pihole.amundsen.pro

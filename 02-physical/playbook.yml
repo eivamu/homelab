@@ -1,0 +1,22 @@
+---
+- hosts: gold
+  become: True
+  gather_facts: no
+  remote_user: "{{ user }}"
+  become_user: root
+  vars_files:
+    - ./vault.yml
+  roles:
+    - role: access
+      tags:
+        - users
+    - role: update
+      tags:
+        - update
+    - role: backupstore
+      tags:
+        - backupstore
+    - role: cloudinit
+      tags:
+        - cloudinit
+

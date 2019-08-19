@@ -1,6 +1,5 @@
 # Physical servers
-# The physical machines are named after metals. There are four main servers
-# at the moment:
+# The physical machines are named after metals.
 #
 # - gold
 #   CPUs    : 16/32 (2x Xeon E5-2690)
@@ -27,10 +26,10 @@ silver.amundsen.pro
 [bronze]
 bronze.amundsen.pro
 
-# - copper
+# - nickel
 #   CPUs    : 2/2 (Celeron 1037U)
 #   RAM     : 16 GB
 #   Disk(1) : 120 GB SSD
-[copper]
-copper.amundsen.pro
+[nickel]
+nickel.amundsen.pro
 
