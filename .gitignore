@@ -1,0 +1,42 @@
+# Terraform / OpenTofu
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Ansible
+*.retry
+*.log
+*.tmp
+inventory/*/*.ini  # if you're storing dynamic inventory outside repo
+host_vars/
+group_vars/
+vault_pass.txt
+ansible.cfg
+secrets.yml
+
+# General
+*.bak
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Python (if using for Ansible scripts or plugins)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+.envrc
+
+# Ignore vscode or other editor-specific settings
+.vscode/
+.idea/
